@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {  
+  color:white;
+  background:url("imagen/menu1.jpg") repeat top;
+}
+
+
+.conteiner {
+background-color:#7686cb;
+border: 5px solid #32448f;
+position: relative;
+    top: 30px;
+    margin-left: 4%;
+    margin-right:4%;
+    margin-bottom:4%;
+    border-radius: 2em;
+}
+
+.textClass{
+font-family: "Arial";
+  font-weight: bold;
+  font-size: 20px; 
+ color:#32448f;
+}
+
+h1 {
+background-color:#32448f;
+ width:30%; 
+border: 5px solid  #32448f; 
+margin:auto;
+	font-family: "verdana";
+  color:black;
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 1%;	
+  padding-bottom:1%;  
+ border-radius: 0.5em;
+}
+
+h2 {
+padding-top: 1.5%;
+padding-bottom:1.5%;
+font-family: "Arial";
+  font-weight: bold;
+  font-size: 40px;
+}
+
+p {
+	margin-left: 4%;
+    margin-right:4%;
+  font-size: 25px;
+padding-bottom:1%;
+}
+
+#nav-list a, span{
+	 color:#32448f;
+	 text-align:center;
+}
+
+.navbar-brand a {
+   font-size:1.5em;
+   margin:auto; 
+   text-transform: uppercase;
+   line-height: .75;
+   text-shadow: 1px 1px 1px grey;
+   text-decoration:none;
+}
+
+.navbar-default{
+border-radius: 0;
+background-color: white; 
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #32448f;
+}
